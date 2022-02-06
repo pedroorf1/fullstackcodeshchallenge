@@ -1,0 +1,13 @@
+:root {
+  --baseBlackColor: #1e2022;
+  --basePurpleColor: #302e53;
+  --baseOrangeColor: #d07017;
+}
+
+.btn-primary:focus {
+  background-color: var(--baseOrangeColor);
+}
+
+.btn-primary:focus:hover {
+  background-color: var(--basePurpleColor);
+}

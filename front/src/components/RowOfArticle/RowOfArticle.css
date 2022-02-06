@@ -1,0 +1,148 @@
+:root {
+  --baseBlackColor: #1e2022;
+  --basePurpleColor: #302e53;
+  --baseOrangeColor: #d07017;
+}
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+  text-overflow: ellipsis;
+}
+.artilceLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2em;
+  height: 300px;
+}
+.title {
+  width: 100%;
+  height: 20px;
+  overflow: hidden;
+  font-weight: bold;
+  margin-bottom: 1em;
+  margin-right: 2em;
+}
+.article {
+  width: 400px;
+  height: 200px;
+  padding-right: 1.5em;
+  flex-wrap: nowrap;
+}
+
+.image,
+.img-fluid {
+  width: 250px;
+  height: 200px;
+}
+
+.image {
+  border: 2px #fff solid;
+}
+
+.left {
+  border: 1px solid gray;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 0.9em;
+}
+
+.news {
+  font-size: 0.7em;
+  padding: 0.7em 2em;
+
+  background-color: var(--baseBlackColor);
+  color: #fff !important;
+
+  border: 1px dotted #555;
+}
+
+.btn-primary {
+  display: flex;
+  position: relative;
+  background-color: var(--baseOrangeColor);
+  transition: 0.2s;
+  padding: 0.5em 2em;
+}
+
+.btn-primary:hover {
+  background-color: var(--basePurpleColor);
+  transition: 0.3s ease-in;
+}
+
+.data {
+  font-style: italic;
+}
+
+.summary {
+  /* white-space: nowrap; */
+  overflow-y: hidden;
+  padding: 0.5em;
+  text-align: left;
+  margin-right: 2em;
+  margin-top: 1em;
+  margin-bottom: 1.2em;
+  height: 80px;
+  font-size: 0.8em;
+}
+.vermais {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+/* right fotos */
+.envolve-right {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--basePurpleColor);
+  color: #fff;
+  padding: 1em;
+  border: 1px dotted #fff;
+}
+
+.envolve-left .vermais {
+  justify-content: left;
+}
+
+.envolve-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--basePurpleColor);
+  color: #fff;
+  padding: 1em;
+  border: 1px dotted #fff;
+}
+
+.envolve-right .vermais {
+  justify-content: right;
+}
+
+.envolve-right .summary {
+  justify-content: right;
+  margin-right: 0;
+}
+
+.envolve-right .article {
+  padding-left: 3em;
+  padding-right: 0;
+}
+
+.envolve-right .img-fluid {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.envolve-right,
+.envolve-left {
+  box-shadow: 3px 0px 20px #333;
+  border-radius: 10px;
+}
+
+.vermais a {
+  padding: 1.2em;
+}

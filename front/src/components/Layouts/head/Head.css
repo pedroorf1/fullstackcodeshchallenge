@@ -1,0 +1,25 @@
+.pagetitle {
+  width: 100%;
+  padding: 1em;
+}
+.hightitle {
+  width: 100%;
+  font-weight: bold;
+  font-size: 2em;
+}
+.microtitle {
+  width: 100%;
+  font-size: 0.7em;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+a:hover {
+  color: #555;
+}
+a:active {
+  color: #555;
+}

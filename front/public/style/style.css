@@ -1,0 +1,31 @@
+:root {
+  --baseBlackColor: #1e2022;
+  --basePurpleColor: #302e53;
+  --baseOrangeColor: #d07017;
+}
+
+* {
+  padding: 0;
+  border: 0;
+  /* font-family: roboto; */
+  font-family: "Roboto Condensed", Roboto, sans-serif;
+}
+.google-icons {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  vertical-align: center !important;
+  border-radius: 0 10px 10px 0;
+}
+.google-icons span {
+  padding: 0.3em;
+  font-size: 1.4em;
+  width: 50px;
+}
+
+.pagetitle {
+  width: 100%;
+  padding: 1em;
+  margin: 0 auto;
+}

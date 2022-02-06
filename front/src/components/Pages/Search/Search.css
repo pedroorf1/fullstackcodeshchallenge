@@ -1,0 +1,86 @@
+:root {
+  --baseBlackColor: #1e2022;
+  --basePurpleColor: #302e53;
+  --baseOrangeColor: #d07017;
+}
+
+/* .pagetitle {
+  width: 100%;
+  padding: 1em;
+}
+.hightitle {
+  width: 100%;
+  font-weight: bold;
+  font-size: 2em;
+}
+.microtitle {
+  width: 100%;
+  font-size: 0.7em;
+} */
+
+.loadmore {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+/* ////////////////////ROTATE CLIV//////////////////// */
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.cliv {
+  width: 20px;
+  height: 20px;
+  border: 3px solid gray;
+  margin: 0 auto 0.5em auto;
+  background-color: var(--basePurpleColor);
+
+  -webkit-animation: rotating 3s linear infinite;
+  -moz-animation: rotating 3s linear infinite;
+  -ms-animation: rotating 3s linear infinite;
+  -o-animation: rotating 3s linear infinite;
+  animation: rotating 3s linear infinite;
+}
+
+/* ////////////////////////////////////////// */
+
+.loadmore button {
+  max-width: 200px;
+  margin: 0 auto 2em auto;
+}
+
+.numberofarticles {
+  font-size: 0.7em;
+  font-style: italic;
+  margin-bottom: 2em;
+}
