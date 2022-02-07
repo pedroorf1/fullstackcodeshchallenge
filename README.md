@@ -56,7 +56,7 @@
 
 > get("/articles") //Lista todos os artigos
 
-> get("/articles/:id") //descreve um artigo especifico
+> get("/article/:id") //descreve um artigo especifico
 
 > put("/articles/:id") //realiza update de um determinado artigo
 
